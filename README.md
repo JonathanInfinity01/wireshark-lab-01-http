@@ -29,7 +29,7 @@ Both values are transmitted without encryption and are readable by any attacker 
 4. **User Awareness:** Educate users about risks of public WiFi networks
 
 ## 📚 Demonstrated Skills
-- Networks traffic analysis with Wireshark
+- Network traffic analysis with Wireshark
 - Identification of insecure protocols
 - Digital forensics evidence documentation
 - Technical security report writing 
