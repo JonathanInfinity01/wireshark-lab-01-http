@@ -10,7 +10,7 @@ Educational lab using Wireshark to analyze HTTP traffic and demonstrate how cred
 - **Ubuntu Linux** - Analysis environment
 
 ## 📷 Evidence
-![HTTP Traffic Example](/http_plaintext_credentials_leaked.png)
+![HTTP Traffic Example](/http_traffic_example.png)
 
 The screenshot illustrates how an HTTP `POST` request can expose data in plain text when transmitted without encryption.
 - **Username:** `admin1000`
