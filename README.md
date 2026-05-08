@@ -1,2 +1,4 @@
-# wireshark-lab-01-http
-Laboratorio: Capturando credenciales en texto plano con Wireshark
+# Wireshark Lab - HTTP Traffic Analysis
+
+Educational lab using Wireshark to analyze HTTP traffic and demonstrate how credentials can appear in plain text, highlighting the importance of secure protocols.
+
