@@ -1,7 +1,8 @@
-# Wireshark Lab 01: HTTP Credential Leak
+# Wireshark Lab - HTTP Traffic Analysis
 
 ## 🎯 Objective
-Demonstrate the interception of plaintext credentials transmitted over HTTP using Wireshark. This lab simulates a Man-in-the-Middle attack scenario on unencrypted networks.
+Educational lab using Wireshark to analyze HTTP traffic and demonstrate how credentials can appear in plain text, highlighting the importance of secure protocols.
+
 
 ## 🛠️ Tools Used
 - **Wireshark** - Network protocol analyzer
@@ -9,13 +10,13 @@ Demonstrate the interception of plaintext credentials transmitted over HTTP usin
 - **Ubuntu Linux** - Analysis environment
 
 ## 📷 Evidence
-![HTTP Plaintext Leak](/http_plaintext_credentials_leaked.png)
+![HTTP Traffic Example](/http_plaintext_credentials_leaked.png)
 
-The screenshot shows the interception of a `POST` request leaking sensitive data:
+The screenshot illustrates how an HTTP `POST` request can expose data in plain text when transmitted without encryption.
 - **Username:** `admin1000`
 - **Phone:** `123456`
 
-Both values are transmitted without encryption and are readable by any attacker on the same network.
+This example highlights the risks of using unencrypted protocols, showing how sensitive information can be visible to anyone monitoring the network.
 
 ## 🔍 Technical Analysis
 1. **Vulnerable Protocol:** HTTP/1.1 sends data unencrypted at Layer 7
