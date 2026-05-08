@@ -28,6 +28,8 @@ This example highlights the risks of using unencrypted protocols, showing how se
 2. **Implement HSTS** headers to prevent protocol downgrade attacks
 3. **Disable port 80** on production web servers
 4. **User Awareness:** Educate users about risks of public WiFi networks
+5. **Network Monitoring:** Implement IDS/IPS and SIEM solutions to detect unencrypted traffic and credential exposure attempts.
+
 
 ## 📚 Demonstrated Skills
 - Network traffic analysis with Wireshark
